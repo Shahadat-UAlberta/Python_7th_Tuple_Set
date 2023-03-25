@@ -1,0 +1,24 @@
+"""
+Tuple :
+
+1. Ordered
+2.Unchangeable [immutable]
+3.Allow duplicate data
+
+List:
+
+1. Ordered
+2.Changeable [Mutable]
+3.Allow duplicate data
+"""
+
+# Declare
+
+tuple_1 = ()
+
+print(type(tuple_1)) # <class 'tuple'>
+
+print(tuple_1) # ()
+
+tuple_2 = tuple()
+print(type(tuple_1)) # <class 'tuple'>
